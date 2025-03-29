@@ -1,0 +1,48 @@
+# function_Practice.python
+we are going to practice some of the function command in python
+ first this is a def function
+ ---------------------------------------------------------xxxxxxxxxxxxxxx--------------------------------------------
+a = int(input("enter your number: "))
+b = int(input("enter your number: "))
+c = int(input("enter your number: "))
+    
+avg = ( a + b + c)/3 # this is function defination
+print(avg)
+
+def avg():
+    a = int(input("enter your number: "))
+    b = int(input("enter your number: "))
+    c = int(input("enter your number: "))
+    
+    avg = ( a + b + c)/3
+    print(avg)
+
+avg() # this is function call 
+avg()
+avg()
+avg()
+avg() # you can count 5 time avg with this concept
+---------------------------------------------------------xxxxxxxxxxxxxxxxxxxx-----------------------------------
+second
+def gooday (name, ending= "thank you"):
+
+    print("gooday", name)
+    print(ending)
+
+gooday("harry", "thanks")
+gooday("sohan")
+---------------------------------------------------------------xxxxxxxxxx----------------------------------
+def factorial(n):
+    if (n==1 or n==0):
+        return 1
+    return n * factorial (n-1)
+n = int(input("enter the number : "))
+print(f"this is factorial of no {factorial (n)}")
+--------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------------
+Questions : find the greatest value between 3 number
+
+
+
+    
+
+
